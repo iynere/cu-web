@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cu-web/static/css/main.d8c9d19d.chunk.css",
-    "main.js": "/cu-web/static/js/main.f7761e81.chunk.js",
-    "main.js.map": "/cu-web/static/js/main.f7761e81.chunk.js.map",
+    "main.css": "/cu-web/static/css/main.076b6e81.chunk.css",
+    "main.js": "/cu-web/static/js/main.b86b3783.chunk.js",
+    "main.js.map": "/cu-web/static/js/main.b86b3783.chunk.js.map",
     "runtime~main.js": "/cu-web/static/js/runtime~main.fe62ff1c.js",
     "runtime~main.js.map": "/cu-web/static/js/runtime~main.fe62ff1c.js.map",
-    "static/js/2.9848d509.chunk.js": "/cu-web/static/js/2.9848d509.chunk.js",
-    "static/js/2.9848d509.chunk.js.map": "/cu-web/static/js/2.9848d509.chunk.js.map",
+    "static/js/2.888a16fa.chunk.js": "/cu-web/static/js/2.888a16fa.chunk.js",
+    "static/js/2.888a16fa.chunk.js.map": "/cu-web/static/js/2.888a16fa.chunk.js.map",
     "index.html": "/cu-web/index.html",
-    "precache-manifest.3a29cb985a2aa56b5fc3de541431dd38.js": "/cu-web/precache-manifest.3a29cb985a2aa56b5fc3de541431dd38.js",
+    "precache-manifest.3115ba40782bd5308fd6a5925a1cd376.js": "/cu-web/precache-manifest.3115ba40782bd5308fd6a5925a1cd376.js",
     "service-worker.js": "/cu-web/service-worker.js",
-    "static/css/main.d8c9d19d.chunk.css.map": "/cu-web/static/css/main.d8c9d19d.chunk.css.map",
+    "static/css/main.076b6e81.chunk.css.map": "/cu-web/static/css/main.076b6e81.chunk.css.map",
     "static/media/cu-logo.jpg": "/cu-web/static/media/cu-logo.c20c8065.jpg"
   }
 }
