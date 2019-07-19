@@ -1,6 +1,6 @@
 import React from 'react'
 import Modal from 'react-modal'
-import './App.css'
+import './Contact.css'
 
 export const Contact = props => (
   <div>

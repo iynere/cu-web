@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import {Bio} from './Bio'
 import {Contact} from './Contact'
 import {News} from './News'
+import {Shows} from './Shows'
+import {Links} from './Links'
 import band from './cu-logo.jpg'
 import ReactModal from 'react-modal'
 import './App.css'
@@ -17,12 +19,12 @@ ReactModal.defaultStyles = {
   },
   content: {
     position: 'absolute',
-    top: '6vw',
+    top: '5vh',
     left: '6vw',
     right: '6vw',
-    bottom: '6vw',
+    bottom: '5vh',
     border: '0',
-    background: 'rgba(255,255,255,.975)',
+    background: 'rgba(245,245,245,.96)',
     overflow: 'auto',
     WebkitOverflowScrolling: 'touch',
     borderRadius: '0',
@@ -139,11 +141,11 @@ class App extends Component {
               <span onClick={this.handleBioOpen}>
                 Bio
               </span>
-              <ReactModal
+              <Bio
                 isOpen={this.state.bioOpen}
                 onRequestClose={this.handleBioClose}
               >
-              </ReactModal>
+              </Bio>
             </h4>
 
             <h4 className="Link">
@@ -172,32 +174,25 @@ class App extends Component {
               <span onClick={this.handleLinksOpen}>
                 Links
               </span>
-              <ReactModal
+              <Links
                 isOpen={this.state.linksOpen}
                 onRequestClose={this.handleLinksClose}
               >
-              </ReactModal>
+              </Links>
             </h4>
 
             <h4 className="Link">
               <span onClick={this.handleShowsOpen}>
                 Shows
               </span>
-              <ReactModal
+              <Shows
                 isOpen={this.state.showsOpen}
                 onRequestClose={this.handleShowsClose}
               >
-              </ReactModal>
+              </Shows>
             </h4>
           </nav>
         </header>
-
-        <Bio
-          isOpen={this.state.bioOpen}
-          onRequestClose={this.handleBioClose}
-          style={this.state.modalStyle}
-        />
-
       </div>
     )
   }

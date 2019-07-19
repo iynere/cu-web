@@ -1,0 +1,24 @@
+.Links {
+	font-size: 6vh;
+	font-style: italic;
+}
+
+a:link {
+	text-decoration: none;
+	color: blue;
+}
+
+a:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #E44fC4;
+}
+
+a:active {
+	text-decoration: none;
+	color: blue;
+}

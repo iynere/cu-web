@@ -1,9 +1,12 @@
 {
   "name": "cu-web",
+  "homepage": "https://iynere.github.io/cu-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
+    "react-dependent-script": "^1.1.2",
     "react-dom": "^16.8.6",
     "react-iframe": "^1.8.0",
     "react-modal": "^3.8.2",
@@ -11,6 +14,8 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
