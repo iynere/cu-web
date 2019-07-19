@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cu-web/static/css/main.d8c9d19d.chunk.css",
+    "main.js": "/cu-web/static/js/main.f7761e81.chunk.js",
+    "main.js.map": "/cu-web/static/js/main.f7761e81.chunk.js.map",
+    "runtime~main.js": "/cu-web/static/js/runtime~main.fe62ff1c.js",
+    "runtime~main.js.map": "/cu-web/static/js/runtime~main.fe62ff1c.js.map",
+    "static/js/2.9848d509.chunk.js": "/cu-web/static/js/2.9848d509.chunk.js",
+    "static/js/2.9848d509.chunk.js.map": "/cu-web/static/js/2.9848d509.chunk.js.map",
+    "index.html": "/cu-web/index.html",
+    "precache-manifest.3a29cb985a2aa56b5fc3de541431dd38.js": "/cu-web/precache-manifest.3a29cb985a2aa56b5fc3de541431dd38.js",
+    "service-worker.js": "/cu-web/service-worker.js",
+    "static/css/main.d8c9d19d.chunk.css.map": "/cu-web/static/css/main.d8c9d19d.chunk.css.map",
+    "static/media/cu-logo.jpg": "/cu-web/static/media/cu-logo.c20c8065.jpg"
+  }
+}
